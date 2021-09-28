@@ -5,7 +5,7 @@ Group members
 2. Nikhilkumar Jain
 3. Vardhan Adheli
 4. Abhishek Kanti
-5. Shriniwas Myakal 
+5. Shrinivas Myakal 
 
 ## General Information
 GUI based application for advance Hospital Management 
