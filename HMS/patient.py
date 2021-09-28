@@ -68,7 +68,7 @@ def patient():
     ej.place(x=900,y=200)
 
     
-    bf=Button(window4,text="BACK",bg="orange",font=('calibre',15,'bold'),width=15,command=back)
+    bf=Button(window4,text="BACK",bg="orange",font=('calibre',15,'bold'),width=15,bd=5,command=back)
     bf.place(x=0,y=1)
 
     bg=Button(window4,text="SUBMIT",bg="orange",font=('calibre',15,'bold'),width=15,bd=5,command=patient1)
@@ -136,7 +136,7 @@ def show():
     tree.heading(3,text="Gender")
     tree.heading(4,text="Contact")
     tree.heading(5,text="Address")
-    tree.place(x=300,y=100)
+    tree.place(x=250,y=100)
     frame2=Frame(window6,width=1600,height=54,bg="violet")
     frame2.place(x=0,y=0)
     lb=Label(window6,text="List Of Patient",bg="violet",font=('calibre',30,'bold'))

@@ -127,7 +127,7 @@ def show():
     tree.heading(4,text="Contact")
     tree.heading(5,text="Address")
     
-    tree.place(x=400,y=100)
+    tree.place(x=250,y=100)
     frame2=Frame(window6,width=1600,height=54,bg="violet")
     frame2.place(x=0,y=0)
     lb=Label(window6,text="List Of Doctors",bg="violet",font=('calibre',30,'bold'))

@@ -140,11 +140,11 @@ def show():
     tree.heading(3,text="Patient")
     tree.heading(4,text="Date")
     tree.heading(5,text="Time")
-    tree.place(x=350,y=100)
+    tree.place(x=250,y=100)
     frame2=Frame(window6,width=1600,height=54,bg="violet")
     frame2.place(x=0,y=0)
     lb=Label(window6,text="List Of Appointments",bg="violet",font=('calibre',30,'bold'))
-    lb.place(x=615,y=0)
+    lb.place(x=550,y=0)
 
 
     conn=MySQLdb.connect(host="localhost",user="root",passwd="",database="hms")
