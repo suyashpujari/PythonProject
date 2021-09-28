@@ -1,5 +1,12 @@
 # Hospital Management System
 
+Group members 
+1. Suyash Pujari 
+2. Nikhilkumar Jain
+3. Vardhan Adheli
+4. Abhishek Kanti
+5. Shriniwas Myakal 
+
 ## General Information
 GUI based application for advance Hospital Management 
 
