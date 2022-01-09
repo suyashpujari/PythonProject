@@ -44,7 +44,7 @@ class Bill_App:
         lbl_color = 'black'
         title = Label(self.root,text = "Global Health Care Billing System",bd = 12,relief = GROOVE,fg = fg_color,bg = bg_color,font=("times new roman",30,"bold"),pady = 3).pack(fill = X)
 
-        F1 = LabelFrame(text = "Patient Details",font = ("time new roman",12,"bold"),fg = "red",bg = bg_color,relief = GROOVE,bd = 10)
+        F1 = LabelFrame(self.root,text = "Patient Details",font = ("time new roman",12,"bold"),fg = "red",bg = bg_color,relief = GROOVE,bd = 10)
         F1.place(x = 0,y = 80,relwidth = 1)
 
         cname_lbl = Label(F1,text="Patient Name",bg = bg_color,fg = fg_color,font=("times new roman",15,"bold")).grid(row = 0,column = 0,padx = 10,pady = 5)
@@ -257,7 +257,7 @@ class Bill_App:
         self.txt.insert(END,f"\nPatient Name: {str(self.pat_name.get())}")
         self.txt.insert(END,f"\nPhone No. : {str(self.p_phone.get())}")
         self.txt.insert(END,"\n==========================================")
-        self.txt.insert(END,"\nProduct              Qty           Price")
+        self.txt.insert(END,"\nService              Qty           Price")
         self.txt.insert(END,"\n==========================================")
 
     def clear(self):
@@ -317,7 +317,7 @@ class Bill_App:
         
 
 def reciept_call():
-    root = Tk()
+    root = Toplevel()
     object = Bill_App(root)
     root.mainloop()
 

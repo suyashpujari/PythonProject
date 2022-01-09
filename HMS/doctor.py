@@ -160,7 +160,7 @@ def delete():
     eb.delete(first=0,last=20)
     ec.delete(first=0,last=20)
     ed.delete(first=0,last=20) 
-    
+    ef.delete(first=0,last=20)
  
 def update():
     a=ea.get()
@@ -180,6 +180,7 @@ def update():
     eb.delete(first=0,last=20)
     ec.delete(first=0,last=20)
     ed.delete(first=0,last=20)
+    ef.delete(first=0,last=20)
 
 def search():
     s=ee.get()

@@ -106,6 +106,7 @@ def patient1():
     ef.delete(first=0,last=20)
     eh.delete(first=0,last=20)
     ei.delete(first=0,last=20)
+    ek.delete(first=0,last=20)
 
 def update():
     data=genderchoosen.get()
@@ -115,7 +116,7 @@ def update():
     d=ek.get()
     conn=MySQLdb.connect(host="localhost",user="root",passwd="",database="hms")
     cs=conn.cursor()
-    sql="update doctor set name=%s,gender=%s,contact=%s,address=%s WHERE id=%s"
+    sql="update patient set name=%s,gender=%s,contact=%s,address=%s WHERE id=%s"
     val=(a,data,b,c,d)
     cs.execute(sql,val)
     conn.commit()
@@ -124,6 +125,7 @@ def update():
     ef.delete(first=0,last=20)
     eh.delete(first=0,last=20)
     ei.delete(first=0,last=20)
+    ek.delete(first=0,last=20)
 
 def show():
     
@@ -166,6 +168,7 @@ def delete():
     ef.delete(first=0,last=20)
     eh.delete(first=0,last=20)
     ei.delete(first=0,last=20) 
+    ek.delete(first=0,last=20)
     
 def search():
     ef.delete(first=0,last=20)
